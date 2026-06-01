@@ -113,7 +113,33 @@
       color:white;
       font-size:22px;
       line-height:1.5;
+      margin-bottom:20px;
+    }
+
+    .hero-links{
+      display:flex;
+      justify-content:center;
+      gap:16px;
       margin-bottom:40px;
+      flex-wrap:wrap;
+    }
+
+    .hero-links a{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      background:rgba(245,166,0,0.95);
+      color:#111;
+      padding:14px 28px;
+      border-radius:18px;
+      font-weight:700;
+      text-decoration:none;
+      transition:transform 0.25s ease, background 0.25s ease;
+    }
+
+    .hero-links a:hover{
+      transform:translateY(-2px);
+      background:#ffb400;
     }
 
     /* Button */
@@ -196,6 +222,11 @@
         Find and book the perfect car for your journey
       </p>
 
+      <div class="hero-links">
+        <a href="sultan.html">View Car Page</a>
+        <a href="booking.html">Go to Booking</a>
+      </div>
+
     </div>
 
     <a href="sultan.html" class="explore-btn">
@@ -234,9 +265,6 @@
       });
     });
   </script>
-
-</body>
-</html>
 
 </body>
 </html>
